@@ -7,8 +7,29 @@
     padding: 20px;
 }
 
-.submit-button{
+.submit{
     padding: 5px 20px;
     border: 0;
     background-color: #DB7605;
+}
+.deposit{
+    background-color: #60A4FA;
+    padding: 10px;
+}
+.withdraw{
+    background-color: #6FE6B7;
+    padding: 10px;
+}
+.balance{
+    background-color: #FCD24E;
+    padding: 10px;
+}
+
+.deposit-amount {
+    background-color: #FFE1E5;
+    padding: 20px;
+}
+.withdraw-amount {
+    background-color: #EEE8FF;
+    padding: 20px;
 }

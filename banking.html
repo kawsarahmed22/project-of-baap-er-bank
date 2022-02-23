@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Page</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container text-center">
+            <h1 class="my-4">Let's get some <span class="purple">mooooney!!!</span></h1>
+            <div class="row text-white">
+                <div class="col-md-4">
+                    <div class="deposit rounded">
+                        <h3>Deposit</h3>
+                        <h4>$00</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="withdraw rounded">
+                        <h3>Withdraw</h3>
+                        <h4>$00</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="balance rounded">
+                        <h3>Balance</h3>
+                        <h4>$00</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="mt-5 container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="deposit-amount rounded">
+                        <h3>Deposit</h3>
+                        <input id="deposit-input" class="form-control" type="text" placeholder="$ amount you want to deposit"><br>
+                        <button id="deposit-button" class="submit btn btn-success d-block">Deposit</button>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="withdraw-amount rounded">
+                        <h3>Withdraw</h3>
+                        <input id="withdraw-input" class="form-control" type="text" placeholder="$ amount you want to withdraw"><br>
+                        <button id="withdraw-button" class="submit btn btn-success d-block">Withdraw</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
