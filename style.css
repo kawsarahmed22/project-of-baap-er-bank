@@ -1,0 +1,14 @@
+.purple{
+    color: #9131E1;
+}
+
+.login-area {
+    background-color: #D2FAE6;
+    padding: 20px;
+}
+
+.submit-button{
+    padding: 5px 20px;
+    border: 0;
+    background-color: #DB7605;
+}
