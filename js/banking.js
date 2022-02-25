@@ -7,4 +7,12 @@ document.getElementById('deposit-button').addEventListener('click', function(){
     const totalDepositAmount = depositInputAmount + depositTotalAmount;
     document.getElementById('deposit-total').innerText = totalDepositAmount;
 
+    //update balance
+    const balanceTotal = document.getElementById('balance-total').innerText;
+    const balanceTotalAmount = parseFloat(balanceTotal);
+    const newBalanceTotal = balanceTotalAmount + depositInputAmount
+    document.getElementById('balance-total').innerText = newBalanceTotal
+
+
+
 })
