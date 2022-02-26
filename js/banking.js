@@ -9,7 +9,7 @@
     document.getElementById('deposit-total').innerText = totalDepositAmount;
     depositInputField.value =''
 
-    //update balance
+    //update balancee
     const balanceTotal = document.getElementById('balance-total');
     const balanceTotalText = balanceTotal.innerText
     const balanceTotalAmount = parseFloat(balanceTotalText);
